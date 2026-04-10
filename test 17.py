@@ -1,6 +1,9 @@
 def concat_tuples(t1, t2):
     return t1 + t2
 
-print(concat_tuples((1, 2), (3, 4)))
-print(concat_tuples(("a", "b"), ("c",)))
+a =(1,2,3,4,5)
+b = (10,20,30,40,50)
+
+print(concat_tuples(a,b))
+
 
